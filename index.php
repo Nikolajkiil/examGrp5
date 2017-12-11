@@ -24,9 +24,9 @@
 
 
 <?php include 'php/navigation.php';?>
-
-<div id="page-wrap">
 <div class="container-fluid">
+<div id="page-wrap">
+
   <section class="window">
     <header>
       <div class="row">
@@ -127,7 +127,7 @@
             <label>E-mail</label>
             <input type="email" class="form-control" id="email" placeholder="din@email.her">
             <label>Beskrivelse</label>
-            <textarea class="form-control" id="comment" rows="5" placeholder="Skriv en kort beskrivelse om dig selv"></textarea> <br>
+            <textarea class="form-control" id="comment" name="message" rows="5" placeholder="Skriv en kort beskrivelse om dig selv"></textarea> <br>
               <a href="#!"><button type="button" class="btn btn-info btn-koeb-design">Send »</button></a>
           </div>
         </div>

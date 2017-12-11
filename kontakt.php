@@ -28,7 +28,7 @@
   <div class="row margin-ryk padding-space margin-space">
     <div class="col-md-offset-2 col-md-4 col-sm-12 col-xs-12">
       <h1>Kontakt mig i dag</h1>
-        <form class="" action="index.html" method="post">
+        <form class="" action="php/mail.php" method="post">
           <div class="form-group">
             <label>Fulde navn</label>
             <input type="text" class="form-control" id="navn" placeholder="John doe">
