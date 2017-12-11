@@ -1,0 +1,154 @@
+body{
+  background-color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.875em;
+}
+
+footer{
+  margin-top: 1em;
+}
+
+/*Anvender en blå farve til en div class*/
+.blue-bg{
+  background-color: #93b1d9;
+  border-color: #93b1d9;
+}
+
+/*Margin til logo*/
+.logo-margin{
+  margin: 1em;
+}
+
+/*Design af logo til header*/
+.logo-design{
+position:absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.nav-margin{
+  margin-top: 1.5em;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+}
+
+.nav-link{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+
+  color: black;
+}
+
+.nav-link:hover{
+  color: rgb(150, 150, 150);
+  transition: 1s;
+}
+
+.img-size{
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.img-margin{
+  margin-top: 2.5em;
+}
+
+.img-float{
+  position: absolute;
+}
+
+.video-margin{
+  padding-top: 5em;
+}
+
+.glyphicon-design{
+  font-size: 1.3em;
+  color:white;
+  margin-top: 1em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+  text-align: center;
+}
+
+.glyphicon-placering{
+  text-align: center;
+}
+
+.quote{
+  font-style: italic;
+  word-wrap: break-word;
+  color: white;
+}
+
+.margin-space{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/*trækker indhold ned på siden*/
+.margin-ryk{
+  margin-top: 75px;
+}
+
+.padding-space{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.padding-1em{
+  padding-bottom: 1em;
+}
+
+/*købsknappen under serviecs*/
+.btn-koeb-design{
+padding-left: 3em;
+padding-right: 3em;
+padding-top: 1em;
+padding-bottom: 1em;
+background-color: #93b1d9;
+border-color: #93b1d9;
+font-weight: bold;
+}
+
+.btn-koeb-design:hover{
+  transition: 1s;
+}
+.orddeling{
+word-break: break-all;
+hyphens: auto;
+}
+
+.color-white{
+  color: white;
+}
+.color-blue{
+  background-color: #93b1d9;
+  border-color: #93b1d9;
+}
+
+.bloed-kant{
+  border-radius: 25px;
+}
+
+.midt-placering{
+  position: absolute;
+  top: 80%;
+  left: 47%;
+}
+
+.footer-p{
+  color: white;
+}
+
+.fixed-bottom{
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
